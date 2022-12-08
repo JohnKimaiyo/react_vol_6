@@ -8,6 +8,7 @@ import Title from "./component/Title";
 import MyName from "./component/MyName";
 import Form from "./component/Form";
 import Mycount from "./component/Mycount";
+import Users from "./component/Users";
 
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
       <Title name="Frontend Developer" />
       <Title name="Mobile Developer" />
       <Title name="Solidity Developer" />
-      <MyName/>
-      <Form/>
-      <Mycount/>
+      <MyName />
+      <Form />
+      <Mycount />
+      <Users />
     </div>
   );
 }
