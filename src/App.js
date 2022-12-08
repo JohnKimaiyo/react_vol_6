@@ -7,6 +7,7 @@ import Hello from "./component/Hello";
 import Title from "./component/Title";
 import MyName from "./component/MyName";
 import Form from "./component/Form";
+import Mycount from "./component/Mycount";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Title name="Solidity Developer" />
       <MyName/>
       <Form/>
+      <Mycount/>
     </div>
   );
 }
